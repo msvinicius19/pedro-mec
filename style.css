@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+*{margin: 0;}
+
+body{
+    background-color: rgb(255, 255, 230);
+}
+
+nav{
+    padding: 15px; 
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 7rem; /* Define uma altura para o contêiner */
+    background-color: #1C1C1C;
+
+}
+
+#logo img{
+    width: 90px; /* Define a largura da imagem */
+    height: 85px; /* Define a altura da imagem */
+    padding-top: 2px;
+    padding-left: 50px;
+}
+
+header{
+  position: relative;
+}
+
+img{
+    width: 100%;
+    height: 834px;
+    position: relative;
+}
+
+article{
+    background-color: #212121;
+    margin: 0;
+    color: #fff;
+    margin-top: -4px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+a {
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.menu-itens{
+    margin-right: 35px;
+    font-weight: bold;
+}
+.menu-itens:link, .a-menu:visited {
+    color: #fff;
+}
+
+.menu-itens:hover, .a-menu:active{
+    color: #BF8D39;
+} 
+
+h1{
+    color: #BF8D39;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-family: Verdana, Helvetica, Tahoma, sans-serif;
+}
+#pag-orçamento h1{
+    color: #212121;
+}
+h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+#textos {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.texto {
+    font-size: 4rem;
+    text-align: center;
+    color: #ddd;
+    text-shadow: 10px 10px 20px #212121;
+    margin-bottom: 20px;
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+}
+
+#menu{
+    margin-right: 60px;
+}
+
+.menu-itens{
+    margin-left: 50px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+#container{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.img-servicos{
+    border-radius: 50%; /* Aplica a borda redonda */
+    width: 280px; /* Define a largura da imagem */
+    height: 280px; /* Define a altura da imagem */
+    object-fit: cover; /* Controla como a imagem se ajusta ao tamanho */
+    margin-top: 20px;
+    margin-bottom: 5px;
+    box-shadow: 3px 3px 6px #B87333; /* Adiciona uma sombra */
+}
+
+.card{
+    margin:10px;
+    width: 33%;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content p{
+    font: 1.1rem 'Verdana', sans-serif;
+    line-height: 20px;
+}
+
+#pag-serviços h1 {
+    margin-bottom: 20px;
+    font-size: ;
+}
+
+#pag-serviços h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#pag-serviços h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #BF8D39;
+    
+}
+.p-servicos{
+    color: white;
+}
+#pag-orçamento{
+    text-align: center;
+    margin-top: 30px;
+}
+#pag-orçamento h1{
+    margin-top: 50px;
+    font-size: 3.2rem; 
+}
+form{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+input, caixa-texto{
+    width: 590px;
+    height: 90px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid #CCC;
+    font: 1.2rem 'Roboto', sans-serif;
+    color: #CCC;
+    background-color: #212121;
+    border-radius: 30px;
+    
+}
+label{
+    font: 1.2rem 'Roboto', sans-serif;
+    }
+#caixa-texto{
+    height: 120px;
+    width: 1200px;
+}
+
+.form1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.form2{
+    flex-direction: column;
+    
+}
+#botoes-form{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+#botão{
+    border-radius: 15px;
+    font-size: 1.8rem;
+}
+input::placeholder {
+    color: #BF8D39;
+    font-family: Verdana, Helvetica, Tahoma, Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+caixa-texto::placeholder {
+    color: #BF8D39;
+    font-family: Verdana, Helvetica, Tahoma, Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+}
+
+input[type="submit"]{
+    width: 50%;
+    background-color: #BF8D39;
+    color: #212121;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#pag-contatos{
+    background-color: #1C1C1C;
+    
+}
+
+#container-contatos{
+    display: flex;
+    justify-content: space-between;
+}
+.coluna-contatos{
+    padding: 30px;
+    
+}
+#pag-contatos p{
+    text-align: center;
+}
+
+#texto-coluna1 p{
+    text-align: ;
+}
+.nome-destaque{
+    color: #DDA570;
+    font-size: 2rem;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#nome-destaque-pedro{
+    text-align: center;
+    font-weight: 500;
+}
+
+#nome-sem-destaque p{
+    color: #FFF;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: Verdana, Helvetica, Tahoma, sans-serif;
+}
+.segunda-coluna-icones{
+    display: flex;
+    margin-top: 10px;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-family: Verdana, Helvetica, Tahoma, sans-serif;
+}
+
+#coluna-endereço{
+    display: grid;
+    margin-bottom: 10px;
+    line-height: 13px;
+    align-items: center;
+}
+.img-icones{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+#img-endereço{
+    width: 200px;
+    height: 200px;
+}
+
+footer p{
+    background-color: #000;
+    padding: 20px;
+    
+}
+footer p{
+    text-align: center;   
+    color: #fff;
+    font-size: 1.5rem;
+}
+footer a{
+    color: #BF8D39;
+}
+footer a:hover{
+    color: #fff;
+}
+#titulo-portfolio{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #212121;
+}
+
+#grid-portfolio{ 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 60rem;  
+    background-color: rgb(255, 255, 230);
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Cria duas colunas de largura igual */
+    grid-gap: 20px; /* Define o espaçamento entre as imagens */
+}
+
+.card-portfolio{
+    padding: 10px; /* Adiciona um espaçamento interno ao redor do card */
+    box-sizing: border-box; /* Garante que o espaçamento interno não altere as dimensões totais do card */
+    border: 1px solid #ccc; /* Adiciona uma borda ao redor do card */
+    border-radius: 10px; /* Adiciona bordas arredondadas ao card */
+    background-color: rgba(191, 141, 57, 0.5);
+    text-align: center; /* Centraliza o conteúdo dentro do card */
+
+
+
+    margin-left: auto; /* Centraliza horizontalmente o card */
+    margin-right: auto; /* Centraliza horizontalmente o card */
+    width: 90%; /* Define a largura do card */
+    height: 425px; /* Define a altura do card */
+    box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao card */
+}
+
+.card-portfolio img{
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura do card */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Adiciona bordas arredondadas à imagem */
+}
+#form3{
+    margin-top: -20px;
+}
+
+#bt-topo{
+    width: 60px;
+    height: 60px;
+    background-color: #F5C89D;
+    border-radius: 35px; /*circulo perfeito. metade*/
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+#bt-topo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

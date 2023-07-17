@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Pedro Marcenaria</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+            <img src="logo.png">
+        </div>
+
+        <div id="menu">
+            <a class="menu-itens" href="#pag-serviços">SERVIÇOS</a>
+            <a class="menu-itens" href="portfolio.html">PORTFÓLIO</a>
+            <a class="menu-itens" href="#pag-orçamento">ORÇAMENTO</a>
+            <a class="menu-itens" href="#pag-contatos">CONTATOS</a>
+        </div>      
+    </nav>
+
+    <header>        
+        <img src="banner2.jpeg" alt="banner-bem-vindo-ao-nosso-portfolio">
+        <div id="textos">
+            <div class="texto">Bem vindo ao nosso portfólio!</div>
+            <div class="texto">CONHEÇA MELHOR NOSSOS SERVIÇOS.</div>
+        </div>
+    </header>
+
+
+    <article id="pag-serviços">
+        <h1>Serviços</h1>
+        <h2>Fundada em 2010, a Pedro Marcenaria e Carpintaria conta com mais de 13 anos de experiência de mercado, especializada em:</h2>
+
+
+    <div id="container">
+        <div class="card">
+            <img src="moveis-planejados.jpg" alt="imagem de um móvel planejado" class="img-servicos">
+            <div class="card-content">
+                <h3>Móveis Planejados</h3>
+                <p class="p-servicos">Fabricação e Instalação de móveis planejados 100% em MDF com um acabamento de alto nível e os melhores materiais do mercado.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="serviços-marcenaria.jpg" alt="imagem de um serviço de marcenaria" class="img-servicos">
+            <div class="card-content">
+                <h3>Serviços de Marcenaria</h3>
+                <p class="p-servicos">Execução de serviços de marcenaria em geral, manutenção de armários, portas, mesas e etc além de total assistência para nossos clientes.</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <img src="instalação-portas.jpg" alt="imagem de uma instalação de porta" class="img-servicos">
+            <div class="card-content">
+                <h3>Instalação de Portas</h3>
+                <p class="p-servicos">Instalação, Fabricação e Montagem de kits de Porta Pronta de altíssima qualidade para melhor atender
+            seus projetos.</p>  
+            </div>
+        </div>
+    </div>
+
+    </article>
+
+    <section id="pag-orçamento">
+        <h1 id=>Solicite seu Orçamento</h1>
+
+        <form>
+            <div class="form1">
+                <div class="form2">
+                    <label for="nome"></label>
+                    <input id="nome" type="text" name="nome" placeholder="Nome completo"/><br/>
+                </div>
+
+                <div class="form2">
+                    <label for="celular"></label>
+                    <input id="celular" type="tel" name="celular" placeholder="(99)99999-9999"/ pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" ><br>                    
+                </div>
+
+            </div>
+
+
+            <div class="form1">
+                <div class="form2">
+                    <label for="email"></label>
+                    <input id="email" type="email" name="email" placeholder="usuario@email.com" /><br>
+                </div>
+
+
+                <div class="form2">
+                    <label for="cidade"></label>
+                    <input id="cidade" type="text" name="cidade" placeholder="Cidade"/><br/>                    
+                </div>
+
+            </div>
+
+            
+            <div id="form3">
+                <label for="msg"></label><br/>
+                <input id="caixa-texto" type="ajuda" name="como-podemos-ajudar" placeholder="Como podemos ajudá-lo?"></input>              
+            </div>
+
+
+            <div id="botoes-form">
+                <p><input id=botão type="submit" name="bnt-agendar" value="AGENDAR"/></p>
+            </div>
+        </form>
+    </section>
+
+    <section id="pag-contatos">
+        <div id="container-contatos">
+            <div class="coluna-contatos">
+                <div id="texto-coluna1">
+                    <p class="nome-destaque" id="nome-destaque-pedro">PEDRO</p>
+                </div>
+                <p class="nome-destaque">Marcenaria & Carpintaria</p>
+                <div id="nome-sem-destaque">
+                    <p>PEDRO Marcenaria e Carpintaria © 2023</p>
+                    <p>CNPJ: 41.787.376/0001-75</p>
+                </div>
+            </div>
+
+            <div class="coluna-contatos">
+                
+                <div class="segunda-coluna-icones">
+                    <a>
+                            <img class="img-icones" src="icone1.png">
+                    </a>
+                    <div id="coluna-endereço">
+                    <p>Quadra 31 Conjunto 13 12, Loja 01</p><br>
+                    <p>Paranoá, Brasília - DF, 71573-109</p>
+                    </div>
+                </div>
+                <div class="segunda-coluna-icones">
+                    <a>
+                        <img class="img-icones" src="icone2.png">
+                    </a>
+                    <p>(61) 99969-0169</p>
+                </div>
+                <div class="segunda-coluna-icones">
+                    <a>
+                        <img class="img-icones" src="icone3.png">
+                    </a>
+                    <p>(61) 99969-0169</p>
+                </div>
+                <div class="segunda-coluna-icones">
+                    <a>
+                        <img class="img-icones" src="icone4.png">
+                    </a>
+                    <p>@PedroMarcenaria</p>
+                </div>
+
+                <div class="segunda-coluna-icones">
+                    <a>
+                        <img class="img-icones" src="icone5.png">
+                    </a>
+                    <p>pedrocarpintaria1@gmail.com</p>
+                </div>
+
+            </div>
+
+            <div class="coluna-contatos">
+                <a href="https://www.google.com/maps/place/15%C2%B046'52.5%22S+47%C2%B046'40.0%22W/@-15.7813792,-47.7780807,19.75z/data=!4m4!3m3!8m2!3d-15.781241!4d-47.777781" target="_blank">
+                    <img  id="img-endereço" src="endereço.png">
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Desenvolvido por <a href="https://www.instagram.com/duduzeira_/" target="_blank">Eduardo,</a><a href="https://www.instagram.com/1marcosv1/" target="_blank"> Marcos Cunha,</a><a href="https://www.instagram.com/iamrafaeleao93/" target="_blank"> Rafael</a> - 2023</p>
+    </footer>
+    <a href="#logo">
+        <div id="bt-topo">
+            <img src="img-topo.png">
+        </div>
+    </a>
+        
+</body>
+</html>
